@@ -15,6 +15,11 @@
     border-radius: 4vh;
     text-decoration: none;
 }
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
 /* fine common */
 
 
@@ -34,7 +39,7 @@ header{
 #logo img{
     vertical-align: middle;
     width: 8vw;
-    margin-right: 7vw;
+    margin-right: 6vw;
 }
 
 /* list item */
@@ -61,11 +66,12 @@ nav{
     background-color: #255EE9;
     border-radius: 2vh;
     font-size: 1vw;
+    z-index: 99;
 }
 
 /* accedi */
 #accedi{
-    margin-left: 7vw;
+    margin-left: 6vw;
     padding: 0.4vw 0.8vw;
     border-radius: 2vh;
     background-color: white;
@@ -92,7 +98,7 @@ nav{
     line-height: 3vh;
     margin: 1vw;
 }
-.text-bottom{
+.text-botton{
     display: inline-block;
     margin: 2vw 1vw;
     font-size: 1vw;
@@ -105,15 +111,52 @@ nav{
     background-color: #151424;
     color: white;
 }
- 
-
 /* fine header */
 
 
+/* inizio  main */
 
+main{
+    width: 100%;
+    position: relative;
+}
 
+.main-section{
+    margin: 20vh auto;
+    width: 70%;
+}
 
+.section-image{
+    float: left;
+    width: 70%;
+}
+.section-text{
+    margin-top: 5vh;
+    top: 7px;
+    width: 30%;
+    float: right;
+}
+.section-image img{
+    width: 100%;
+    height: 100%;
+}
+ 
+.section-text h1{
+    font-size: 3vw;
+    margin-bottom: 5vh;
+}
 
+.section-text p{
+    font-size: 1vw;
+}
+
+#invert .section-image{
+    float: right;
+}
+
+#invert .section-text{
+    float: left;
+}
 
 
 
