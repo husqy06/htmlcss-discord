@@ -4,34 +4,51 @@
     box-sizing: border-box;
 }
 
+
+/* inizio common */
 .page{
-
+    font-family: 'Whitney SSm A', 'Whitney SSm B', Arial;
+    font-weight: 600;
 }
+#botton{
+    padding: 1vw 2vw;
+    border-radius: 4vh;
+    text-decoration: none;
+}
+/* fine common */
 
+
+/* inzio header */
 header{
     position: relative;
     background-color: #255EE9;
-    height: 30vh;
+    height: 65vh;
     width: 100%;
     text-align: center;
-}
-
-.banner{
     background-image: url("../img/jumbo.png");
-} 
-
-#logo{
-    display: inline-block;
+    background-size: cover;
 }
 
+/* inizio nav bar */
+/* logo */
+#logo img{
+    vertical-align: middle;
+    width: 8vw;
+    margin-right: 7vw;
+}
+
+/* list item */
 nav ul li{
     display: inline-block;
+    margin: 0 2vw;
+} 
+nav ul li a{
+    text-decoration: none;
+    color: white; 
 }
-
-#accedi{
-    display: inline-block;
+nav ul li a:hover{
+    text-decoration: underline;
 }
-
 nav{
     position: fixed;
     top: 0;
@@ -39,10 +56,58 @@ nav{
     transform: translatex(-50%);
     display: inline-block;
     height: 8vh;
+    line-height: 8vh;
     width: 80%;
-    background-color: lightblue;
+    background-color: #255EE9;
+    border-radius: 2vh;
+    font-size: 1vw;
 }
 
+/* accedi */
+#accedi{
+    margin-left: 7vw;
+    padding: 0.4vw 0.8vw;
+    border-radius: 2vh;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+/* banner */
+.text-banner{
+    position: absolute;
+    width: 43vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.text-banner h1{
+    font-weight: 900;
+    font-size: 3vw;
+    margin: 2vw;
+}
+.text-banner p{
+    font-size: 1vw;
+    line-height: 3vh;
+    margin: 1vw;
+}
+.text-bottom{
+    display: inline-block;
+    margin: 2vw 1vw;
+    font-size: 1vw;
+}
+.white{
+    background-color: white;
+    color: black;
+}
+.black{
+    background-color: #151424;
+    color: white;
+}
+ 
+
+/* fine header */
 
 
 
@@ -57,12 +122,4 @@ nav{
 
 
 
-
-
-
-
-
-
-/* .banner{
-    background-image: url("../img/jumbo.png");
-} */
+ 
