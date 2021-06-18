@@ -10,6 +10,7 @@
     font-family: 'Whitney SSm A', 'Whitney SSm B', Arial;
     font-weight: 600;
 }
+
 #botton{
     padding: 1vw 2vw;
     border-radius: 4vh;
@@ -32,6 +33,13 @@
     background-color: #5865F2;
     color: white;
 }
+#small-botton{
+    margin-left: 7vw;
+    padding: 0.4vw 0.8vw;
+    border-radius: 2vh;
+    text-decoration: none;
+}
+
 /* fine common */
 
 
@@ -82,13 +90,9 @@ nav{
 }
 
 /* accedi */
-#accedi{
-    margin-left: 7vw;
-    padding: 0.4vw 0.8vw;
-    border-radius: 2vh;
+.accedi{
     background-color: white;
     color: black;
-    text-decoration: none;
 }
 
 /* banner */
@@ -123,11 +127,19 @@ nav{
 main{
     width: 100%;
     position: relative;
-    /* background-image: url(../img/wave.svg); */
-    background-size: cover;
 }
-
 /* sezioni main */
+.wave{
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/wave.svg");
+}
+.background{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/wave.svg");
+}
 .main-section{
     margin: 20vh auto;
     width: 70%;
@@ -165,7 +177,7 @@ main{
 .main-bottom{
     text-align: center;
     width: 70%;
-    margin: 0 auto;
+    margin: 0 auto ;
 }
 .section-bottom-image{
     width: 100%;
@@ -182,7 +194,6 @@ main{
 .section-bottom-text p{
     font-size: 1.2vw;
 }
-
 .bottom-botton{
     padding: 2vh;
     height: 20vh;
@@ -192,11 +203,85 @@ main{
     background-size: inherit;
     background-repeat: no-repeat;
 }
-
 .bottom-botton h1{
     font-size: 1.4vw;
 }
+/* fine main */
 
 
+/* inizio footer */
+footer{
+    width: 100%;
+    height: 65vh;
+    background-color: #23272A;
+}
+.top-footer{
+    width: 70%;
+    height: 70%;
+    margin: 0 auto;
+    color: white;
+    font-size: 0.7vw;
+}
+.footer-left{
+    display: inline-block;
+    padding: 3vw 0;
+    color: #5865F2;
+    width: 25%;
+    height: 100%;
+}
+.footer-left h1{
+    font-size: 2vw;
+    margin-bottom: 1vw;
+}
+.language img{
+    width: 1.7vw;
+    vertical-align: middle;
+}
+.language select{
+    font-size: 1vw;
+    background-color: transparent;
+    color: white;
+    border: none;
+    margin-bottom: 8vh;
+}
+.language{
+    width: 9vw;
+    height: 4vh;
+    line-height: 4vh;
+}
+.icon{
+    display: inline-block;
+    font-size: 1.5vw;
+    margin: 1vw 1vw 0 0;
+    color: white;
+}
+.footer-right{
+    padding-top: 1vw;
+    text-align: center;
+    float: right;
+    width: 75%;
+    height: 100%;
+}
+.footer-right ul{
+    display: inline-table;
+    margin: 2vw;
+    list-style: none;
+}
+.footer-right ul li{
+    margin: 1vw;
+}
+.head-list{
+    color: #5865F2;
+}
 
- 
+.bottom-footer{
+    width: 70%;
+    margin: 0 auto;
+    border-top: 2px solid #5865F2;
+    padding-top: 4vh;
+}
+.registrati{
+    float: right;
+    background-color: #5865F2;
+    color: white;
+}
